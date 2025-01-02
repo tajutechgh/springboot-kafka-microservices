@@ -39,4 +39,13 @@ public class OrderEvent {
     public void setOrder(Order order) {
         this.order = order;
     }
+
+    @Override
+    public String toString() {
+        return "OrderEvent{" +
+                "message='" + message + '\'' +
+                ", status='" + status + '\'' +
+                ", order=" + order +
+                '}';
+    }
 }

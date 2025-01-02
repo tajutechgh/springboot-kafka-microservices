@@ -15,7 +15,6 @@ import java.util.UUID;
 @RequestMapping("/api/v1")
 public class OrderController {
 
-    @Autowired
     private OrderProducer orderProducer;
 
     public OrderController(OrderProducer orderProducer) {
